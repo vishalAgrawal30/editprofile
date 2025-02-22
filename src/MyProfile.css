@@ -1,0 +1,109 @@
+.my-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.profile-card {
+  display: flex;
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Sidebar */
+.profile-sidebar {
+  flex: 1;
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+/* Right Content */
+.profile-main {
+  flex: 2;
+  padding: 20px;
+}
+
+.profile-heading {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.profile-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-item label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.profile-item input {
+  background: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+  color: #495057;
+}
+.identity-proof-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding-right: 60px; /* Ensure space for the button */
+}
+
+.view-doc-btn {
+  position: absolute;
+  right: 5px;
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.view-doc-btn:hover {
+  background: #0056b3;
+}
